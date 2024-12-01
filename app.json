@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "gastitos",
+    "slug": "gastitos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cerdo.png",
+    "userInterfaceStyle": "light",
+    "main": "expo-router/entry",
+    "scheme": "gastitos",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cerdo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.romel23.gastitos"
+    },
+    "web": {
+      "favicon": "./assets/cerdo.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-sqlite",
+        {
+          "enableFTS": true,
+          "useSQLCipher": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "70e1a1d6-a26e-407b-973c-134cbae25655"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "owner": "romel23"
+  }
+}
