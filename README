@@ -2,8 +2,15 @@
 
 **Prerequisites:**
 
-- **Node.js and npm (or yarn):** Ensure you have Node.js and npm (or yarn) installed on your system. Download them from [https://nodejs.org/](https://www.google.com/url?sa=E&source=gmail&q=https://www.google.com/url?sa=E%26source=gmail%26q=https://nodejs.org/).
-- **Expo CLI:** Install Expo CLI globally by running the following command in your terminal:
+1.  Install Node.js and npm from [https://nodejs.org](https://nodejs.org/).
+
+<!-- end list -->
+
+```bash
+npm i node
+```
+
+2.  Install the Expo CLI globally:
 
 <!-- end list -->
 
@@ -18,10 +25,10 @@ npm install -g expo-cli
 <!-- end list -->
 
 ```bash
-git clone https://your-repository.git
+git clone https://github.com/romelx23/manage-money
 ```
 
-Replace `https://your-repository.git` with the URL of your repository.
+Replace `https://github.com/romelx23/manage-money` with the URL of your repository.
 
 **Installing Dependencies:**
 
@@ -30,7 +37,7 @@ Replace `https://your-repository.git` with the URL of your repository.
 <!-- end list -->
 
 ```bash
-cd your-project
+cd manage-money
 ```
 
 2.  Install the project's dependencies:
